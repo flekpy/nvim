@@ -134,9 +134,10 @@ return packer.startup(function(use)
 
   -- Цветовые темы, Colorscheme
   use {
-    "sainnhe/everforest",
+    --[[ "sainnhe/everforest", ]]
+		"doums/darcula",
     config = function()
-      vim.cmd "colorscheme everforest"
+      vim.cmd "colorscheme darcula"
     end,
   }
 
